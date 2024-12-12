@@ -78,9 +78,6 @@ section {
 .hero-sec {
     display: flex;
 }
-.hero-img img {
-    width: 100%;
-}
 .div-3 {
     display: flex;
     gap: 2.4rem;
@@ -106,9 +103,6 @@ section {
 .hosting-sec {
     display: flex;
     flex-direction: row-reverse;
-}
-.hosting-img img{
-    width: 100%;
 }
 .features-text {
     display: flex;
@@ -277,7 +271,12 @@ th,td{
     .button {
         right: 0;
     }
-    .hero-sec img,
+    .hero-img img {
+        width: 100%;
+    }
+    .hosting-img img{
+        width: 100%;
+    }
 }
 
 
