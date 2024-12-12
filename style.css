@@ -78,9 +78,6 @@ section {
 .hero-sec {
     display: flex;
 }
-.hosting-img img{
-    width: 100%;
-}
 .hero-img img {
     width: 100%;
 }
@@ -110,7 +107,9 @@ section {
     display: flex;
     flex-direction: row-reverse;
 }
-
+.hosting-img img{
+    width: 100%;
+}
 .features-text {
     display: flex;
     justify-content: center;
